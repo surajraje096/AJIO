@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Jenkins">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Testcases.AJIO_WOMEN_02_PageTest"/>
+      <class name="Testcases.AJIO_MEN_01_PageTest"/>
+      <class name="Testcases.AJIO_01_PageTest"/>
+      <class name="Testcases.AJIO_KIDS_03_PageTest"/>
+      <class name="Testcases.AJIO_HOME_KITCHEN__05_PageTest"/>
+      <class name="Testcases.AJIO_INDIE_04_PageTest"/>
+      <class name="base.TestBase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Jenkins -->
